@@ -9,10 +9,62 @@ body {
     display: block;
     background-image: linear-gradient(black, #0D1839) !important;
 }
+.container{
+    max-width:100%!important;
+    width:100%!important;
+}
 .border-bottom, .border-top{
     border: 0px!important;
 }
+nav .container h1 {
+    width: 50%;
+}
 
+nav .container .navbar-collapse {
+    width: 50%;
+    text-align: right;
+}
+@media(min-width: 576px) {
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: row-reverse !important;
+    }
+}
+.navbar-collapse ul li {
+    margin-left: 5% !important;
+}
+
+    .navbar-collapse ul li a {
+        color: #609AE0 !important;
+    }
+
+    .navbar-collapse ul li:hover {
+        background-color: #609AE0 !important;
+        border-radius: 8%;
+    }
+
+    .navbar-collapse ul li a:hover {
+        color: white !important;
+    }
+#profile-pic{
+    border-radius:50%;
+}
+.img-title-bar {
+    clear: both !important;
+    text-align: center;
+    width: 100% !important;
+}
+
+.aboutme {
+    width: 100%!important;
+    background-image: url('../img/wave-1913559_1920.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-me h3, .about-me p{
+    width:80%;
+    margin-left:10%;
+    text-align:center;
+}
 #contact{
     margin-top: 10vw;
     margin-bottom: 10vw;
