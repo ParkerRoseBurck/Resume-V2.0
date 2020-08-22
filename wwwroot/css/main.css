@@ -4,6 +4,7 @@
 html, body{ 
     background-color: black!important;
     color:white;
+    top:0;
 }
 .navbar {
     margin-bottom: 0px !important;
