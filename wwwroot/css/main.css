@@ -1,7 +1,7 @@
 ﻿
 
 /*My own css added here:*/
-html, body, .navbar{ 
+html, body{ 
     background-color: black!important;
     color:white;
 }
@@ -69,9 +69,9 @@ nav .container .navbar-collapse {
 }
 
 .about-me {
-    transform:translateY(-10px);
+    
     margin-bottom: 10%;
-    padding-top: 5%;
+    padding-top: 15%;
     padding-bottom: 5%;
     width: 100%!important;
     background-image: url('../img/wave-overlay.jpg');
