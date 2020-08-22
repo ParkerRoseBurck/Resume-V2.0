@@ -18,6 +18,9 @@ body {
     display: block;
     background-image: linear-gradient(black, #0D1839) !important;
 }
+h1{
+    text-align:center;
+}
 .container{
     max-width:100%!important;
     width:100%!important;
@@ -182,9 +185,15 @@ h4 {
     font-size: 14px !important;
 }
 
+.first-h1{
+    margin-top: 10%;
+}
+
 /*projects Page*/
 
 .proj-block {
+    width: 80%;
+    margin-left: 10%;
     border-radius: 10px;
     padding: 2%;
     margin-bottom: 2%;
@@ -195,23 +204,23 @@ h4 {
     }
 
 .dogvet {
-    background-color: #85EE9E;
+    background-color: #317140;
 }
 
 .scrabble {
-    background-color: #85EEC6;
+    background-color: #317156;
 }
 
 .emulator {
-    background-color: #85EEE9;
+    background-color: #316E71;
 }
 
 .websites {
-    background-color: #85D6EE;
+    background-color: #315571;
 }
 
 .weather {
-    background-color: #85B4EE;
+    background-color: #314371;
 }
 
 
