@@ -62,8 +62,8 @@ nav .container .navbar-collapse {
     padding-top: 5%;
     padding-bottom: 5%;
     width: 100%!important;
-    background-image: url('../img/wave-1913559_1920.jpg');
-    background-size: cover;
+    background-image: url('../img/wave-overlay.jpg');
+    background-size: 100%, auto;
     background-attachment: fixed;
 }
 .about-me h3, .about-me p{
