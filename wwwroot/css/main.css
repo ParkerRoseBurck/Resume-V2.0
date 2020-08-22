@@ -38,25 +38,27 @@ nav .container .navbar-collapse {
     }
 
     .navbar-collapse ul li:hover {
-        background-color: #609AE0 !important;
+        background-color: white !important;
         border-radius: 8%;
     }
 
     .navbar-collapse ul li a:hover {
-        color: white !important;
+        color: black !important;
     }
 #profile-pic {
     border-radius: 50%;
-    box-shadow: 2px 5px 18px 10px #204264;
+    box-shadow: 0px 0px 18px 6px #204264;
 }
 .img-title-bar {
+    margin-top:5%;
     clear: both !important;
     text-align: center;
     width: 100% !important;
 }
 
 .about-me {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 100%!important;
