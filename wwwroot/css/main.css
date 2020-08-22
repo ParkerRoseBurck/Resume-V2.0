@@ -182,13 +182,72 @@ h4 {
     font-size: 14px !important;
 }
 
+/*projects Page*/
 
-#contact{
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-    height: 20vw;
-    background-image: url('../img/wave-1913559_1920.jpg');
-    background-size:cover;
-    background-attachment: fixed;
+.proj-block {
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 2%;
 }
 
+    .proj-block a {
+        color: white;
+    }
+
+.dogvet {
+    background-color: #85EE9E;
+}
+
+.scrabble {
+    background-color: #85EEC6;
+}
+
+.emulator {
+    background-color: #85EEE9;
+}
+
+.websites {
+    background-color: #85D6EE;
+}
+
+.weather {
+    background-color: #85B4EE;
+}
+
+
+/*contact and flower image*/
+.contact-block {
+    width: 100%;
+    padding-top: 15%;
+    display: block;
+    overflow: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+    .contact-block #contact {
+        width: 70%;
+        float: left;
+        margin-left: 30%;
+    }
+
+#contact h1 {
+    padding-bottom: 5%;
+    text-align: left !important;
+}
+
+.contact-block .flower-img {
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.flower-img img {
+    border: 0px !important;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
