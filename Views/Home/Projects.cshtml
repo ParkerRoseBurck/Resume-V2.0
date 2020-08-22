@@ -3,55 +3,56 @@
     ViewData["Title"] = "Projects";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<section id="proj-section">
+    <h1 class="first-h1">School Projects</h1>
+    <div class="proj-block dogvet">
+        <h4>Dog Vet - ASP.NET Core, Microsoft SQL Server Management Studio, Microsoft Azure, GutHub</h4>
+        <p><a href="https://dogvet.azurewebsites.net/" target="_blank">View Project</a></p>
+        <p>This is an ASP.Net Core web applictation that stores customer and dog details, along with services the vet offers in an SQL Database. I deployed this website with Microsoft Azure and GitHub.</p>
+        <p>A user who is not logged in can view the services and create a cart but in order to check out and book the appointments they must login or register.</p>
+        <p>When the user registers a new account they are just a regular customer, no special role - they can view services, create a cart and checkout. When the user is logged in as an employee (employee@gc.ca) they also have the ability to view their customers and dogs along with all their information. Further, if the user is logged in as the admin (admin@gc.ca) they have the same abilities as the employee along with being able to create, edit and delete customers, dogs and services.</p>
+        <p>Use the following to login as an employee and an admin to see the difference in roles:</p>
+        <p>Username: admin@gc.ca<br />Password: Test123$</p>
+        <p>Username: employee@gc.ca<br />Password: Test456$</p>
+    </div>
+    <div class="proj-block scrabble">
+        <h4>Scrabble Points Generator - JavaFX</h4>
+        <p><a href="~/Scrabble.zip">Scrabble Zip folder - click to download code files</a></p>
+        <p>In this application I had to create a JavaFX program in IntelliJ that displays all the letters of the alphabet along with their point values and amount of tiles left in play. The app also shows the running total of points from all the words submitted throughout the game and displays words previously submitted.</p>
+        <p>The user types in a word into a text box and clicks the 'Submit' button, the application checks if the word is valid and if it is, points are added to the running total and the number of those letters left in play decreases. If the word is not valid, then an error message appears and the points are not added.</p>
+        <p>Words are valid if they are 2 letters or more in length and no longer than 8 letters. Words must contain at least one vowel. There is no validation for nonsense words. The user also is not allowed to play a word that has previously been submitted. The game is over either when there are no more vowels left or there is less than two tiles left in play. </p>
+    </div>
 
-<h1 class="first-h1">School Projects</h1>
-<div class="proj-block dogvet">
-    <h4>Dog Vet - ASP.NET Core, Microsoft SQL Server Management Studio, Microsoft Azure, GutHub</h4>
-    <p><a href="https://dogvet.azurewebsites.net/" target="_blank">View Project</a></p>
-    <p>This is an ASP.Net Core web applictation that stores customer and dog details, along with services the vet offers in an SQL Database. I deployed this website with Microsoft Azure and GitHub.</p>
-    <p>A user who is not logged in can view the services and create a cart but in order to check out and book the appointments they must login or register.</p>
-    <p>When the user registers a new account they are just a regular customer, no special role - they can view services, create a cart and checkout. When the user is logged in as an employee (employee@gc.ca) they also have the ability to view their customers and dogs along with all their information. Further, if the user is logged in as the admin (admin@gc.ca) they have the same abilities as the employee along with being able to create, edit and delete customers, dogs and services.</p>
-    <p>Use the following to login as an employee and an admin to see the difference in roles:</p>
-    <p>Username: admin@gc.ca<br />Password: Test123$</p>
-    <p>Username: employee@gc.ca<br />Password: Test456$</p>
-</div>
-<div class="proj-block scrabble">
-    <h4>Scrabble Points Generator - JavaFX</h4>
-    <p><a href="~/Scrabble.zip">Scrabble Zip folder - click to download code files</a></p>
-    <p>In this application I had to create a JavaFX program in IntelliJ that displays all the letters of the alphabet along with their point values and amount of tiles left in play. The app also shows the running total of points from all the words submitted throughout the game and displays words previously submitted.</p>
-    <p>The user types in a word into a text box and clicks the 'Submit' button, the application checks if the word is valid and if it is, points are added to the running total and the number of those letters left in play decreases. If the word is not valid, then an error message appears and the points are not added.</p>
-    <p>Words are valid if they are 2 letters or more in length and no longer than 8 letters. Words must contain at least one vowel. There is no validation for nonsense words. The user also is not allowed to play a word that has previously been submitted. The game is over either when there are no more vowels left or there is less than two tiles left in play. </p>
-</div>
+    <h1>Work Projects</h1>
+    <div class="proj-block emulator">
+        <h4>Emulator App - GoDot, Business Central</h4>
+        <p>During one of my co-op positions I was responsible for creating an emulator to show off how a device worked. The device was their own making that was essentially one main device along with several other smaller devices. The main device had a screen and four buttons, while the smaller devices only had three buttons and a small light.</p>
+        <p>Essentially the devices are used to send product orders as well as get the temurature of dry/cold storage rooms. The small devices are positioned around the warehouse or storage area etc, near the products that they are set to order. The main device uses an API call to get a list of products and their details from Business Central. Any one of those products can be set to any one of the smaller devices using the main screen to select the product and then going to the smaller device and turning it on to accept the request. Once the smaller devices are set to their own specific product, they can then be turned on to make orders.</p>
+        <p>One of the buttons turns on the small device (when the light turns on the device is on) and once the device is on, then all the three buttons are each set to a different amount for ordering (each product has different pre-set amounts). Pressing multiple buttons or one button multiple times will add that amount on to the order. After no buttons have been pressed after 5 seconds, the full order is sent back to Business Central and the small device turns off again.</p>
+        <p>If the small device has not been turned on yet with the left most button (if the light is not on), none of the other buttons will do anything. </p>
+        <p>On the main device one of the buttons is set to retreive the tempurature from a room and display it along with the time it was taken.</p>
+        <p>To complete this Emulator I used a program called GoDot. We wanted everything on one screen for efficiency and simplicity when showing clients what the devices do and how they work. The application shows a 2D depiction of how the main device would look and two seperate smaller devices beside it all on one application screen. When the buttons on the 2D devices are clicked their screens show the appropriate messages and send the requests to the other devices and to Business Central.</p>
+    </div>
+    <div class="proj-block websites">
+        <h4>Websites - WordPress, WooCommerce, FTP</h4>
+        <p>One of my co-ops was for a home automation company that had a couple of 'sister' companies attached to it. I was responsible for updating, creating and designing their websites.</p>
+        <p>Their first website (Custom Sound and Vision) had already been created and I had to edit and fix up some of the design/layout, add more features to the pages, add pages that went off of the existing design, create content, and use photoshop and some video editing programs to create some of the media.</p>
+        <p>The other two websites (MyNetworX and Kastem Security Solutions) were either a complete redo or did not have a website yet. I was responsible for creating them from scratch. I created them to be similar in color scheme and design to the first one but not exaclty the same - giving each one their own style but still relatable to the others seeing as they are all sister companies.</p>
+        <p><a href="https://customsoundandvision.ca/" target="_blank">Custom Sound and Vision</a></p>
+        <p><a href="https://mynetworx.ca/" target="_blank">MyNetworX</a></p>
+        <p><a href="http://kastem.ca/" target="_blank">Kastem Security Solutions</a></p>
+    </div>
 
-<h1>Work Projects</h1>
-<div class="proj-block emulator">
-    <h4>Emulator App - GoDot, Business Central</h4>
-    <p>During one of my co-op positions I was responsible for creating an emulator to show off how a device worked. The device was their own making that was essentially one main device along with several other smaller devices. The main device had a screen and four buttons, while the smaller devices only had three buttons and a small light.</p>
-    <p>Essentially the devices are used to send product orders as well as get the temurature of dry/cold storage rooms. The small devices are positioned around the warehouse or storage area etc, near the products that they are set to order. The main device uses an API call to get a list of products and their details from Business Central. Any one of those products can be set to any one of the smaller devices using the main screen to select the product and then going to the smaller device and turning it on to accept the request. Once the smaller devices are set to their own specific product, they can then be turned on to make orders.</p>
-    <p>One of the buttons turns on the small device (when the light turns on the device is on) and once the device is on, then all the three buttons are each set to a different amount for ordering (each product has different pre-set amounts). Pressing multiple buttons or one button multiple times will add that amount on to the order. After no buttons have been pressed after 5 seconds, the full order is sent back to Business Central and the small device turns off again.</p>
-    <p>If the small device has not been turned on yet with the left most button (if the light is not on), none of the other buttons will do anything. </p>
-    <p>On the main device one of the buttons is set to retreive the tempurature from a room and display it along with the time it was taken.</p>
-    <p>To complete this Emulator I used a program called GoDot. We wanted everything on one screen for efficiency and simplicity when showing clients what the devices do and how they work. The application shows a 2D depiction of how the main device would look and two seperate smaller devices beside it all on one application screen. When the buttons on the 2D devices are clicked their screens show the appropriate messages and send the requests to the other devices and to Business Central.</p>
-</div>
-<div class="proj-block websites">
-    <h4>Websites - WordPress, WooCommerce, FTP</h4>
-    <p>One of my co-ops was for a home automation company that had a couple of 'sister' companies attached to it. I was responsible for updating, creating and designing their websites.</p>
-    <p>Their first website (Custom Sound and Vision) had already been created and I had to edit and fix up some of the design/layout, add more features to the pages, add pages that went off of the existing design, create content, and use photoshop and some video editing programs to create some of the media.</p>
-    <p>The other two websites (MyNetworX and Kastem Security Solutions) were either a complete redo or did not have a website yet. I was responsible for creating them from scratch. I created them to be similar in color scheme and design to the first one but not exaclty the same - giving each one their own style but still relatable to the others seeing as they are all sister companies.</p>
-    <p><a href="https://customsoundandvision.ca/" target="_blank">Custom Sound and Vision</a></p>
-    <p><a href="https://mynetworx.ca/" target="_blank">MyNetworX</a></p>
-    <p><a href="http://kastem.ca/" target="_blank">Kastem Security Solutions</a></p>
-</div>
+    <h1>Other Projects</h1>
+    <div class="proj-block weather">
+        <h4>Current Weather and Time - JavaScript APIs</h4>
+        <p><a href="https://parkerroseburck.github.io/WeatherApp/" target="_blank">View Project</a></p>
+        <p><a href="https://github.com/ParkerRoseBurck/WeatherApp" target="_blank">GitHub Code files</a></p>
+        <p>This is a html, css, and javascript web application that uses API's to get the current weather and time/timezone of a particular city the user enters.</p>
+        <p>Part of this project I did for a school assignment that I decided to expand on afterwards.</p>
+        <p>The city entered by the user is used in the first API (OpenWeatherMap) to get the current temperature, longitude, latitude, and description of the weather. The tempurature and description are displayed to the user while the longitude and latitude are used in another API call (TimeZoneDB) to get the zimezone of the city and its current time which is then also displayed to the user.</p>
+        <p>From the current time, the application checks to see if it is day or night in that city, then depending on if it is night or day, an icon is displayed to match the weather description from the first API, either showing a sun or a moon if applicable.</p>
+        <p>I also used a Web Animations API to create a cool animation of a clock with continuously rotating hands to display over the time and timeZone.</p>
+    </div>
 
-<h1>Other Projects</h1>
-<div class="proj-block weather">
-    <h4>Current Weather and Time - JavaScript APIs</h4>
-    <p><a href="https://parkerroseburck.github.io/WeatherApp/" target="_blank">View Project</a></p>
-    <p><a href="https://github.com/ParkerRoseBurck/WeatherApp" target="_blank">GitHub Code files</a></p>
-    <p>This is a html, css, and javascript web application that uses API's to get the current weather and time/timezone of a particular city the user enters.</p>
-    <p>Part of this project I did for a school assignment that I decided to expand on afterwards.</p>
-    <p>The city entered by the user is used in the first API (OpenWeatherMap) to get the current temperature, longitude, latitude, and description of the weather. The tempurature and description are displayed to the user while the longitude and latitude are used in another API call (TimeZoneDB) to get the zimezone of the city and its current time which is then also displayed to the user.</p>
-    <p>From the current time, the application checks to see if it is day or night in that city, then depending on if it is night or day, an icon is displayed to match the weather description from the first API, either showing a sun or a moon if applicable.</p>
-    <p>I also used a Web Animations API to create a cool animation of a clock with continuously rotating hands to display over the time and timeZone.</p>
-</div>
-
+</section>
