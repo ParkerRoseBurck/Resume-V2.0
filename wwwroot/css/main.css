@@ -204,23 +204,23 @@ h4 {
     }
 
 .dogvet {
-    background-color: #317140;
+    background-color: #15412E;
 }
 
 .scrabble {
-    background-color: #317156;
+    background-color: #15413A;
 }
 
 .emulator {
-    background-color: #316E71;
+    background-color: #153D41;
 }
 
 .websites {
-    background-color: #315571;
+    background-color: #153141;
 }
 
 .weather {
-    background-color: #314371;
+    background-color: #152941;
 }
 
 
@@ -259,4 +259,199 @@ h4 {
     position: absolute;
     top: 20%;
     right: 20%;
+}
+
+/*About Me Page*/
+
+.aboutme-page {
+    width: 80%;
+    margin-left: 10%;
+    padding: 1%;
+    background-image: linear-gradient(#0D1839, black) !important;
+    box-shadow: 0px 0px 18px 4px #0F2B47;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-section {
+    width: 100%;
+    padding: 5%;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.left, .right {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 2%;
+}
+
+    .right p, .right h2 {
+        padding-left: 5%;
+        margin-top: 2%;
+    }
+
+.aboutme-page h2 {
+    font-weight: 300 !important;
+    font-size: 2em !important;
+}
+
+.left img, .right img {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+#hill, #tent, #waterfall, #canoe, #rocks, #dogs {
+    object-fit: cover;
+}
+
+
+.image {
+    position: absolute;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 15s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+.image-changes img {
+    z-index: 0 !important;
+}
+
+
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    53% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    53% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.f1 {
+    background-color: black;
+}
+
+.f2 {
+    -webkit-animation-delay: 5s;
+    background-color: black;
+}
+
+.f3 {
+    -webkit-animation-delay: 10s;
+    background-color: black;
+}
+
+@media (max-width: 750px) {
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+@media(max-width: 975px) {
+    .container {
+        max-width: 100% !important;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .right img, .left img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .resume-border {
+        border: 30px solid transparent !important;
+        border-image-width: 20px !important;
+    }
+
+    body .container {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .flower-img, #contact {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #contact {
+        transform: translateY(150px);
+    }
+
+    .contact-block {
+        padding-bottom: 150px;
+    }
+
+    #programs li, #lang li {
+        width: 50% !important;
+    }
+
+    .proj-block {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+}
+
+@media(max-width: 600px) {
+    .right, .left {
+        width: 100%;
+        clear: both;
+        min-height: 250px;
+    }
 }
