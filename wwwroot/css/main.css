@@ -1,0 +1,24 @@
+﻿
+
+/*My own css added here:*/
+html, body, .navbar{ 
+    background-color: black!important;
+    color:white;
+}
+body {
+    display: block;
+    background-image: linear-gradient(black, #0D1839) !important;
+}
+.border-bottom, .border-top{
+    border: 0px!important;
+}
+
+#contact{
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    height: 20vw;
+    background-image: url('../img/wave-1913559_1920.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
