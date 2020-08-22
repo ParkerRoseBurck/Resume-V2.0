@@ -47,7 +47,7 @@ nav .container .navbar-collapse {
     }
 #profile-pic {
     border-radius: 50%;
-    box-shadow: 2px 5px 18px #204264;
+    box-shadow: 2px 5px 18px 10px #204264;
 }
 .img-title-bar {
     clear: both !important;
@@ -56,6 +56,7 @@ nav .container .navbar-collapse {
 }
 
 .about-me {
+    margin-top: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
     width: 100%!important;
@@ -68,6 +69,104 @@ nav .container .navbar-collapse {
     margin-left:10%;
     text-align:center;
 }
+.resume {
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1%;
+    background-image: linear-gradient(#0D1839, black) !important;
+}
+
+.experience {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.exp {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+.work-1, .work-2, .work-3, .work-4 {
+    width: 70%;
+    float: left;
+    padding-bottom: 2%;
+    display: inline-block;
+}
+/*date and h4 css for work, school and certificates*/
+.date-1, .date-2, .date-3, .date-4 {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    display: inline-block;
+}
+
+h4 {
+    padding-bottom: 2%;
+    text-decoration: underline;
+}
+
+/*education*/
+.education {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.school {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+.school-1, .school-2, .school-3 {
+    width: 70%;
+    float: left;
+    padding-bottom: 2%;
+    display: inline-block;
+}
+
+/*certificates*/
+.certificates {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.cert {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+
+.cert-1, .cert-2, .cert-3 {
+    width: 70%;
+    float: left;
+    padding-bottom: 2%;
+    display: inline-block;
+}
+
+/*languages and programs used*/
+.programs-lang {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    padding-top: 5%;
+}
+
+    .programs-lang ul {
+        width: 100%;
+        display: inline-block !important;
+    }
+
+#programs li, #lang li {
+    width: 30% !important;
+    float: left !important;
+    font-size: 14px !important;
+}
+
+
 #contact{
     margin-top: 10vw;
     margin-bottom: 10vw;
