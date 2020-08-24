@@ -240,7 +240,7 @@ h4 {
     border-radius: 10px;
     font-weight: 400!important;
     line-height:normal;
-    display:block!important;
+    display:inline-block!important;
 }
     .proj-block a:hover {
         background-color: #204264;
