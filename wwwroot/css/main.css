@@ -27,7 +27,9 @@ h1{
 }
 .first-h1 {
     padding-top: 10%;
-    color: #1A3F6A;
+    color: #0D2239;
+    font-weight: 400 !important;
+    font-size: 2em;
 }
 .container{
     max-width:100%!important;
@@ -209,7 +211,7 @@ h4 {
     padding-bottom: 5%;
 }
     #proj-section h1 {
-        color: #1A3F6A;
+        color: #0D2239;
         font-weight: 400 !important;
         font-size: 2em;
     }
@@ -229,10 +231,15 @@ h4 {
 .proj-block a {
     color: #1A3F6A;
     background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: 400!important;
 }
     .proj-block a:hover {
         background-color: #204264;
         color: white;
+        text-decoration:none!important;
+        
     }
 
 
