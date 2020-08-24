@@ -114,7 +114,7 @@ nav .container .navbar-collapse {
         color: #609AE0;
         
         padding: 0.5%;
-        border-radius: 8%;
+        border-radius: 10px;
         font-weight: 400 !important;
         line-height: normal;
         display: inline-block !important;
@@ -227,11 +227,11 @@ h4 {
     padding-bottom: 5%;
 }
     #proj-section h1 {
-        color: #0D2239;
+        color: #609AE0;
         font-weight: 500 !important;
         font-size: 2em;
-        padding-top:2%;
-        padding-bottom:2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 .proj-block {
     width: 80%;
@@ -249,7 +249,7 @@ h4 {
 .proj-block a {
     color: #609AE0;
     padding: 0.5%;
-    border-radius: 8%;
+    border-radius: 10px;
     font-weight: 400 !important;
     line-height: normal;
     display: inline-block !important;
