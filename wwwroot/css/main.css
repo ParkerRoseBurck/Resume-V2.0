@@ -234,12 +234,13 @@ h4 {
 .proj-block a {
     color: #1A3F6A;
     background-color: white;
-    padding: 1%;
+    padding: 0.5%;
     margin-top: 1%!important;
     margin-bottom:1%!important;
     border-radius: 10px;
     font-weight: 400!important;
     line-height:normal;
+    display:block!important;
 }
     .proj-block a:hover {
         background-color: #204264;
