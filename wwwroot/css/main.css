@@ -443,7 +443,11 @@ h4 {
     -webkit-animation-delay: 10s;
     background-color: black;
 }
-
+@media(max-width: 1230px) {
+    .contact-block, #proj-section, .about-me {
+        background-size: cover;
+    }
+}
 @media (max-width: 750px) {
     .container {
         max-width: 100% !important;
@@ -458,7 +462,7 @@ h4 {
     .contact-block, #proj-section, .about-me{
         background-size: cover;
     }
-    .contact-block{
+   #contact{
         padding-bottom: 10%;
     }
     .right img, .left img {
