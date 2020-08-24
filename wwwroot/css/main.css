@@ -19,7 +19,7 @@ main, .pb-3{
     padding-bottom: 10%;
 }
 .navbar-toggler{
-    z-index:101;
+   color: lightgrey!important;
 }
 body {
     display: block;
@@ -471,6 +471,7 @@ h4 {
         width: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
+        padding-top: 10%!important;
     }
 
     .flower-img, #contact {
