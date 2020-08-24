@@ -110,6 +110,21 @@ nav .container .navbar-collapse {
     background-image: linear-gradient(#0D1839, black) !important;
     box-shadow: 0px 0px 18px 4px #0F2B47;
 }
+    .resume a {
+        color: #609AE0;
+        
+        padding: 0.5%;
+        border-radius: 8%;
+        font-weight: 400 !important;
+        line-height: normal;
+        display: inline-block !important;
+    }
+
+    .resume a:hover {
+        background-color: white;
+        color: black;
+        text-decoration: none !important;
+    }
 
 .experience {
     width: 100%;
@@ -232,20 +247,18 @@ h4 {
     margin-bottom:0px;
 }
 .proj-block a {
-    color: #1A3F6A;
-    background-color: white;
+    color: #609AE0;
     padding: 0.5%;
-    
-    border-radius: 10px;
-    font-weight: 400!important;
-    line-height:normal;
-    display:inline-block!important;
+    border-radius: 8%;
+    font-weight: 400 !important;
+    line-height: normal;
+    display: inline-block !important;
 }
+
     .proj-block a:hover {
-        background-color: #204264;
-        color: white;
-        text-decoration:none!important;
-        
+        background-color: white;
+        color: black;
+        text-decoration: none !important;
     }
 
 
