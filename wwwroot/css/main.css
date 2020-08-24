@@ -455,7 +455,12 @@ h4 {
         max-width: 100% !important;
         
     }
-
+    .contact-block, #proj-section, .about-me{
+        background-size: cover;
+    }
+    .contact-block{
+        padding-bottom: 10%;
+    }
     .right img, .left img {
         width: 200px;
         height: 200px;
