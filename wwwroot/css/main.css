@@ -27,7 +27,8 @@ h1{
 }
 .first-h1 {
     padding-top: 10%;
-    color: #0D2239;
+    padding-bottom: 5%;
+    color: white;
     font-weight: 400 !important;
     font-size: 2em;
 }
@@ -231,7 +232,9 @@ h4 {
 .proj-block a {
     color: #1A3F6A;
     background-color: white;
-    padding: 2%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom:1%;
     border-radius: 10px;
     font-weight: 400!important;
 }
