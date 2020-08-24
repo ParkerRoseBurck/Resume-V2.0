@@ -19,7 +19,9 @@ main, .pb-3{
     padding-bottom: 10%;
 }
 .navbar-toggler{
-   color: lightgrey!important;
+   background-color: lightgrey!important;
+   padding: 1%;
+   border-radius:10px;
 }
 body {
     display: block;
@@ -471,7 +473,11 @@ h4 {
         width: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
-        padding-top: 10%!important;
+        
+    }
+    main{
+        padding-top:10%;
+
     }
 
     .flower-img, #contact {
