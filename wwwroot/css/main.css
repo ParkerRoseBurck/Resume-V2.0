@@ -477,10 +477,7 @@ h4 {
     .about-me{
         padding-top:30%;
     }
-    main{
-        padding-top:10%;
-
-    }
+   
 
     .flower-img, #contact {
         width: 100% !important;
@@ -489,6 +486,11 @@ h4 {
 
     #contact {
         transform: translateY(150px);
+        width: 80%;
+        margin-left: 10%;
+    }
+    .flower-img{
+        text-align:center!important;
     }
     #contact h1{
         font-size: 2rem;
@@ -496,6 +498,13 @@ h4 {
 
     .contact-block {
         padding-bottom: 150px;
+        background-size: cover;
+    }
+    #proj-section {
+        background-size: cover;
+    }
+    .about-me {
+        background-size: cover;
     }
 
     #programs li, #lang li {
