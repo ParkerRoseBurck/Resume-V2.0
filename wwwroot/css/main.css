@@ -490,6 +490,9 @@ h4 {
     #contact {
         transform: translateY(150px);
     }
+    #contact h1{
+        font-size: 2rem;
+    }
 
     .contact-block {
         padding-bottom: 150px;
