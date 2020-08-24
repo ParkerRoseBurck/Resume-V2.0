@@ -27,9 +27,9 @@ h1{
 }
 .first-h1 {
     padding-top: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     color: white;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
     font-size: 2em;
 }
 .container{
@@ -213,8 +213,10 @@ h4 {
 }
     #proj-section h1 {
         color: #0D2239;
-        font-weight: 400 !important;
+        font-weight: 500 !important;
         font-size: 2em;
+        padding-top:2%;
+        padding-bottom:2%;
     }
 .proj-block {
     width: 80%;
@@ -233,10 +235,11 @@ h4 {
     color: #1A3F6A;
     background-color: white;
     padding: 1%;
-    margin-top: 1%;
-    margin-bottom:1%;
+    margin-top: 1%!important;
+    margin-bottom:1%!important;
     border-radius: 10px;
     font-weight: 400!important;
+    line-height:normal;
 }
     .proj-block a:hover {
         background-color: #204264;
