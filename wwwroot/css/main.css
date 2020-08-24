@@ -25,6 +25,10 @@ body {
 h1{
     text-align:center;
 }
+.first-h1 {
+    padding-top: 10%;
+    color: #1A3F6A;
+}
 .container{
     max-width:100%!important;
     width:100%!important;
@@ -193,9 +197,7 @@ h4 {
     font-size: 14px !important;
 }
 
-.first-h1{
-    padding-top: 10%;
-}
+
 
 /*projects Page*/
 
@@ -207,7 +209,7 @@ h4 {
     padding-bottom: 5%;
 }
     #proj-section h1 {
-        color: #609AE0;
+        color: #1A3F6A;
         font-weight: 400 !important;
         font-size: 2em;
     }
@@ -224,9 +226,13 @@ h4 {
 .weather{
     margin-bottom:0px;
 }
-    .proj-block a {
+.proj-block a {
+    color: #1A3F6A;
+    background-color: white;
+}
+    .proj-block a:hover {
+        background-color: #204264;
         color: white;
-        
     }
 
 
