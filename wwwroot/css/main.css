@@ -453,8 +453,7 @@ h4 {
 @media(max-width: 975px) {
     .container {
         max-width: 100% !important;
-        width: 90%;
-        margin-left: 5%;
+        
     }
 
     .right img, .left img {
@@ -474,6 +473,9 @@ h4 {
         margin: 0 !important;
         padding: 0 !important;
         
+    }
+    .about-me{
+        padding-top:30%;
     }
     main{
         padding-top:10%;
