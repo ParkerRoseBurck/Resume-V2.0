@@ -254,11 +254,16 @@ h4 {
 /*contact and flower image*/
 .contact-block {
     width: 100%;
-    padding-top: 15%;
+    
     display: block;
     overflow: auto;
     padding-top: 5%;
     padding-bottom: 5%;
+    
+    width: 100% !important;
+    background-image: url('../img/wave-overlay.jpg');
+    background-size: 100%, auto;
+    background-attachment: fixed;
 }
 
     .contact-block #contact {
