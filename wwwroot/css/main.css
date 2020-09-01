@@ -23,11 +23,24 @@ main, .pb-3{
    padding: 1%;
    border-radius:10px;
 }
-body {
-    display: block;
-    background-image: linear-gradient(black, #0D1839) !important;
-    
+.LI-badge-container.horizontal.dark {
+    border-radius: 10px !important;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    background-color: #081334!important;
 }
+    .LI-badge-container.horizontal.dark ul, .LI-badge-container.horizontal.dark ul li, .LI-badge-container.horizontal.dark div, .LI-badge-container.horizontal.dark ul a, .LI-badge-container.horizontal.dark div a, .LI-badge-container.horizontal.dark div span, .LI-badge-container.horizontal.dark div span img {
+        background-color: #081334 !important;
+    }
+        .LI-badge-container.horizontal.dark div a.LI-view-profile {
+            background-color: #008cc9 !important;
+        }
+   
+    body {
+        display: block;
+        background-image: linear-gradient(black, #0D1839) !important;
+    }
 h1{
     text-align:center;
 }
