@@ -585,4 +585,7 @@ h4 {
     .first-h1{
         padding-top: 35%!important;
     }
+    nav .container h1{
+        font-size: 1em!important;
+    }
 }
