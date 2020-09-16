@@ -582,4 +582,7 @@ h4 {
         clear: both;
         min-height: 250px;
     }
+    .first-h1{
+        padding-top: 20%!important;
+    }
 }
