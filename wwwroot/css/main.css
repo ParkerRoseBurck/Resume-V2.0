@@ -86,7 +86,7 @@ h1{
 }
 nav .container h1 {
     width: 50%;
-    color: #609AE0;
+    color: white;
     font-weight:400 !important;
     font-size: 2em;
 }
@@ -105,16 +105,15 @@ nav .container .navbar-collapse {
 }
 
     .navbar-collapse ul li a {
-        color: #609AE0 !important;
+        color: white !important;
     }
 
     .navbar-collapse ul li:hover {
-        background-color: white !important;
-        border-radius: 8%;
+        color: #0D1839; 
     }
 
     .navbar-collapse ul li a:hover {
-        color: black !important;
+        color: #0D1839 !important;
     }
 #profile-pic {
     border-radius: 50%;
