@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/main.css" />
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <script src="~/js/site.js" async></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 <body>
-    
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom mb-3">
             <div class="container">
-                <h1>Parker Rose Burck - Online Resume</h1>
+                <h1></h1>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +33,14 @@
 
 
                         <li id="Contact-btn" class="nav-item">
-                            <a id="Contact-btn-text" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                            <a id="Contact-btn-text" class="nav-link text-dark" href="/#contact">CONTACT</a>
                         </li>
                         <li id="Projects-btn" class="nav-item">
-                            <a id="Projects-btn-text" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Projects">Projects</a>
+                            <a id="Projects-btn-text" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Projects">PROJECTS</a>
                         </li>
-                        <li id="About-btn" class="nav-item">
-                            <a id="About-btn-text" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutMe">About Me</a>
-                        </li>
+                        
                         <li id="Resume-btn" class="nav-item">
-                            <a id="Resume-btn-text" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Resume</a>
+                            <a id="Resume-btn-text" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">ABOUT</a>
                         </li>
                     </ul>
                 </div>
@@ -51,13 +56,16 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - Parker Rose Burck - Online Resume
+            &copy; 2020 - Parker Rose Burck - Portfolio
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

@@ -4,73 +4,285 @@
     
 }
     <section id="proj-section">
-        <h1 class="first-h1">School Projects</h1>
-        <div class="proj-block dogvet">
-            <h4>Dog Vet - ASP.NET Core, Microsoft SQL Server Management Studio, Microsoft Azure, GitHub</h4>
-            <p><a href="https://dogvet.azurewebsites.net/" target="_blank">View Project</a></p>
-            <p>This is an ASP.Net Core web applictation that stores customer and dog details, along with services the vet offers in an SQL Database. I deployed this website with Microsoft Azure and GitHub.</p>
-            <p>A user who is not logged in can view the services and create a cart but in order to check out and book the appointments they must login or register.</p>
-            <p>When the user registers a new account they are just a regular customer, no special role - they can view services, create a cart and checkout. When the user is logged in as an employee (employee@gc.ca) they also have the ability to view their customers and dogs along with all their information. Further, if the user is logged in as the admin (admin@gc.ca) they have the same abilities as the employee along with being able to create, edit and delete customers, dogs and services.</p>
-            <p>Use the following to login as an employee and an admin to see the difference in roles:</p>
-            <p>Username: admin@gc.ca<br />Password: Test123$</p>
-            <p>Username: employee@gc.ca<br />Password: Test456$</p>
+        <div class="projects-title-section">
+            <h1 class="proj-page-title">PROJECTS</h1>
+            <h3 data-aos="fade-right"
+                data-aos-duration="2000">
+                my experience
+            </h3>
         </div>
-        <div class="proj-block toDoList">
-            <h4>To-Do List - JavaScript</h4>
-            <p><a href="https://parkerroseburck.github.io/ToDoList/" target="_blank">View Project</a></p>
-            <p><a href="https://github.com/ParkerRoseBurck/ToDoList" target="_blank">GitHub Repository</a></p>
-            <p>This was a JavaScript school project. There is an input field to enter a to-do item and an add button that appends it to the list. Items in the to-do list have a checkbox to mark them as done and a delete button. When an item is checked off as complete the list item is crossed off, turns grey and is sent to the bottom of the list. When an item is deleted it simply disappears.</p>
-            <p>This applications goal is to demonstrate the use of JavaScript, with minimal HTML/CSS styling.</p>
-        </div>
-        <div class="proj-block scrabble">
-            <h4>Scrabble Points Generator - JavaFX</h4>
-            <p><a href="~/Scrabble.zip">Scrabble Zip folder - click to download code files</a></p>
-            <p>In this application I had to create a JavaFX program in IntelliJ that displays all the letters of the alphabet along with their point values and amount of tiles left in play. The app also shows the running total of points from all the words submitted throughout the game and displays words previously submitted.</p>
-            <p>The user types in a word into a text box and clicks the 'Submit' button, the application checks if the word is valid and if it is, points are added to the running total and the number of those letters left in play decreases. If the word is not valid, then an error message appears and the points are not added.</p>
-            <p>Words are valid if they are 2 letters or more in length and no longer than 8 letters. Words must contain at least one vowel. There is no validation for nonsense words. The user also is not allowed to play a word that has previously been submitted. The game is over either when there are no more vowels left or there is less than two tiles left in play. </p>
-        </div>
+        <div class="featured-projects">
 
-        <h1>Work Projects</h1>
-        <div class="proj-block emulator">
-            <h4>Emulator App - GoDot, Business Central</h4>
-            <p>During one of my co-op positions I was responsible for creating an emulator to show off how a device worked. The device was their own making that was essentially one main device along with several other smaller devices. The main device had a screen and four buttons, while the smaller devices only had three buttons and a small light.</p>
-            <p>Essentially the devices are used to send product orders as well as get the temurature of dry/cold storage rooms. The small devices are positioned around the warehouse or storage area etc, near the products that they are set to order. The main device uses an API call to get a list of products and their details from Business Central. Any one of those products can be set to any one of the smaller devices using the main screen to select the product and then going to the smaller device and turning it on to accept the request. Once the smaller devices are set to their own specific product, they can then be turned on to make orders.</p>
-            <p>One of the buttons turns on the small device (when the light turns on the device is on) and once the device is on, then all the three buttons are each set to a different amount for ordering (each product has different pre-set amounts). Pressing multiple buttons or one button multiple times will add that amount on to the order. After no buttons have been pressed after 5 seconds, the full order is sent back to Business Central and the small device turns off again.</p>
-            <p>If the small device has not been turned on yet with the left most button (if the light is not on), none of the other buttons will do anything. </p>
-            <p>On the main device one of the buttons is set to retreive the tempurature from a room and display it along with the time it was taken.</p>
-            <p>To complete this Emulator I used a program called GoDot. We wanted everything on one screen for efficiency and simplicity when showing clients what the devices do and how they work. The application shows a 2D depiction of how the main device would look and two seperate smaller devices beside it all on one application screen. When the buttons on the 2D devices are clicked their screens show the appropriate messages and send the requests to the other devices and to Business Central.</p>
-        </div>
-        <div class="proj-block websites">
-            <h4>Websites - HTML, CSS, WordPress, WooCommerce, FTP</h4>
-            <p>One of my co-ops was for a home automation company that had a couple of 'sister' companies attached to it. I was responsible for updating, creating and designing their websites.</p>
-            <p>Their first website (Custom Sound and Vision) had already been created and I had to edit and fix up some of the design/layout, add more features to the pages, add pages that went off of the existing design, create content, and use photoshop and some video editing programs to create some of the media.</p>
-            <p>The other two websites (MyNetworX and Kastem Security Solutions) were either a complete redo or did not have a website yet. I was responsible for creating them from scratch. I created them to be similar in color scheme and design to the first one but not exaclty the same - giving each one their own style but still relatable to the others seeing as they are all sister companies.</p>
-            <p><a href="https://customsoundandvision.ca/" target="_blank">Custom Sound and Vision</a></p>
-            <p><a href="https://mynetworx.ca/" target="_blank">MyNetworX</a></p>
-            <p><a href="http://kastem.ca/" target="_blank">Kastem Security Solutions</a></p>
-        </div>
+            <div class="new-proj-block moon">
+                <div class="front-face">
+                    <div class="contents front">
+                        <h2>MOONSHOT AUTOMATION</h2>
+                        <p>WORDPRESS | WOO-COMMERCE | HTML | CSS | JAVASCRIPT</p>
+                    </div>
+                </div>
 
-        <h1>Other Projects</h1>
-        <div class="proj-block themePicker">
-            <h4>Site Theme Picker - JavaScript, HTML, CSS</h4>
-            <p><a href="https://parkerroseburck.github.io/ThemePicker/" target="_blank">View Project</a></p>
-            <p><a href="https://github.com/ParkerRoseBurck/ThemePicker" target="_blank">GitHub Repository</a></p>
-            <p>This is a HTML, CSS, and JavaScript web application that allows the user to choose the theme of the site with the click of a button. JavaScript is used to create functions with the onclick event listener for each of the theme buttons. When one of the theme buttons is clicked, the css file changes, showing a different theme. </p>
-            <p>JavaScript was also used to create functions with the mouseover and mouseleave event listeners to add animation borders to the buttons.</p>
+                <div class="back-face">
+                    <div class="contents back">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="moonshot-info">
+
+
+                <div id="moonshot-info">
+                    <p><a href="https://moonshotautomation.com/" target="_blank">Moonshot Automation</a></p>
+                    <p>Moonshot Automation is a home automation company in Mississauga. This project involves building a website and E-Commerce shop from the ground up.</p>
+                    <p>Goal: Professional and polished style with an emphasis on lots of images. Dark navy palet with pops of cyan blue from their logo.</p>
+                    <p>This is a current work in progress.</p>
+                    <h3>in development</h3>
+                </div>
+                <div id="moonshot-button"></div>
+            </div>
+
+
+
+
+
+            <div class="new-proj-block emulator">
+                <div class="front-face">
+                    <div class="contents front">
+                        <h2>EMULATOR</h2>
+                        <p>GODOT | MICROSOFT POWER APPS | BUSINESS CENTRAL</p>
+                    </div>
+                </div>
+
+                <div class="back-face">
+                    <div class="contents back">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="emulator-info">
+
+
+                <div id="emulator-info">
+                    <p>During one of my co-op positions I was responsible for creating an emulator to show off how a device worked. The device was their own making that was essentially one main device along with several other smaller devices. The main device had a screen and four buttons, while the smaller devices only had three buttons and a small light.</p>
+                    <p>Essentially the devices are used to send product orders as well as get the temurature of dry/cold storage rooms. The small devices are positioned around the warehouse or storage area etc, near the products that they are set to order. The main device uses an API call to get a list of products and their details from Business Central. Any one of those products can be set to any one of the smaller devices using the main screen to select the product and then going to the smaller device and turning it on to accept the request. Once the smaller devices are set to their own specific product, they can then be turned on to make orders.</p>
+                    <p>One of the buttons turns on the small device (when the light turns on the device is on) and once the device is on, then all the three buttons are each set to a different amount for ordering (each product has different pre-set amounts). Pressing multiple buttons or one button multiple times will add that amount on to the order. After no buttons have been pressed after 5 seconds, the full order is sent back to Business Central and the small device turns off again.</p>
+                    <p>If the small device has not been turned on yet with the left most button (if the light is not on), none of the other buttons will do anything. </p>
+                    <p>On the main device one of the buttons is set to retreive the tempurature from a room and display it along with the time it was taken.</p>
+                    <p>To complete this Emulator I used a program called GoDot. We wanted everything on one screen for efficiency and simplicity when showing clients what the devices do and how they work. The application shows a 2D depiction of how the main device would look and two seperate smaller devices beside it all on one application screen. When the buttons on the 2D devices are clicked their screens show the appropriate messages and send the requests to the other devices and to Business Central.</p>
+
+                </div>
+                <div id="emulator-button"></div>
+            </div>
+
+
+            <div class="new-proj-block scrabble">
+                <div class="front-face">
+                    <div class="contents front">
+                        <h2>SCRABBLE POINTS GENERATOR</h2>
+                        <p>INTELLIJ | JAVAFX | SCENEBUILDER</p>
+                    </div>
+                </div>
+
+                <div class="back-face">
+                    <div class="contents back">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="scrabble-info">
+
+
+                <div id="scrabble-info">
+                    <p>In this application I had to create a JavaFX program in IntelliJ that displays all the letters of the alphabet along with their point values and amount of tiles left in play. The app also shows the running total of points from all the words submitted throughout the game and displays words previously submitted.</p>
+                    <p>The user types in a word into a text box and clicks the 'Submit' button, the application checks if the word is valid and if it is, points are added to the running total and the number of those letters left in play decreases. If the word is not valid, then an error message appears and the points are not added.</p>
+                    <p>Words are valid if they are 2 letters or more in length and no longer than 8 letters. Words must contain at least one vowel. There is no validation for nonsense words. The user also is not allowed to play a word that has previously been submitted. The game is over either when there are no more vowels left or there is less than two tiles left in play. </p>
+                    <p><a href="~/Scrabble.zip">Scrabble Zip folder</a> - click to download code files</p>
+                </div>
+                <div id="scrabble-button"></div>
+            </div>
+
+
+            <div class="new-proj-block vet">
+                <div class="front-face">
+                    <div class="contents front">
+                        <h2>PUPPY VET</h2>
+                        <p>C# | ASP.NET CORE | SQL | MICROSOFT AZURE</p>
+                    </div>
+                </div>
+
+                <div class="back-face">
+                    <div class="contents back">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="vet-info">
+
+
+                <div id="vet-info">
+                    <p>This was a school project to demonstrate skills in C#, SQL, ASP.Net Authentication and Identity, and Payment.</p>
+                    <p>This ASP.Net Core web applictation stores customer and dog details, along with services the vet offers in an SQL Database. I deployed this website with Microsoft Azure and GitHub.</p>
+                    <p>A user who is not logged in can view the services and create a cart but in order to check out and book the appointments they must login or register.</p>
+                    <p>When the user registers a new account they are just a regular customer, no special role - they can view services, create a cart and checkout. When the user is logged in as an employee (employee@gc.ca) they also have the ability to view their customers and dogs along with all their information. Further, if the user is logged in as the admin (admin@gc.ca) they have the same abilities as the employee along with being able to create, edit and delete customers, dogs and services.</p>
+                    <p>Use the following to login as an employee and an admin to see the difference in roles:</p>
+                    <p>Username: admin@gc.ca<br />Password: Test123$</p>
+                    <p>Username: employee@gc.ca<br />Password: Test456$</p>
+                    <p><a href="https://dogvet.azurewebsites.net/" target="_blank">View Project</a></p>
+                </div>
+                <div id="vet-button"></div>
+            </div>
+
         </div>
-        <div class="proj-block weather">
-            <h4>Current Weather and Time - JavaScript APIs</h4>
-            <p><a href="https://parkerroseburck.github.io/WeatherApp/" target="_blank">View Project</a></p>
-            <p><a href="https://github.com/ParkerRoseBurck/WeatherApp" target="_blank">GitHub Repository</a></p>
-            <p>This is a html, css, and javascript web application that uses API's to get the current weather and time/timezone of a particular city the user enters.</p>
-            <p>Part of this project I did for a school assignment that I decided to expand on afterwards.</p>
-            <p>The city entered by the user is used in the first API (OpenWeatherMap) to get the current temperature, longitude, latitude, and description of the weather. The tempurature and description are displayed to the user while the longitude and latitude are used in another API call (TimeZoneDB) to get the zimezone of the city and its current time which is then also displayed to the user.</p>
-            <p>From the current time, the application checks to see if it is day or night in that city, then depending on if it is night or day, an icon is displayed to match the weather description from the first API, either showing a sun or a moon if applicable.</p>
-            <p>I also used a Web Animations API to create a cool animation of a clock with continuously rotating hands to display over the time and timeZone.</p>
+        <div class="other-sites">
+            <div class="other-projects-title">
+                <h1>MORE WEBSITES</h1>
+            </div>
+
+            <div class="other-proj-whole">
+                <div class="other-proj-block csv">
+                    <div class="front-face">
+                        <div class="contents front">
+                            <h2>CUSTOM SOUND AND VISION</h2>
+                            <p>WORDPRESS | HTML | CSS</p>
+                        </div>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="contents back">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="csv-info">
+
+
+                    <div id="csv-info">
+                        <p><a href="https://customsoundandvision.ca/" target="_blank">Custom Sound and Vision</a></p>
+                        <p>Custom Sound and Vision is a home automation company in Mississauga. This project involved editing and updating an existing website.</p>
+                        <p>Goal: Continue with the style and colors already present in the website with some edits and changes while creating new pages to expand the site.</p>
+                        <p>Months after this project was completed they decided to do a total rebranding of the company - logo, color palet, style, name etc. Their new company site is my current project, Moonshot Automation (see above).</p>
+                        <p>This company has two other sister companies that I have also worked on - see Kastem and MyNetworX below.</p>
+                    </div>
+                    <div id="csv-button"></div>
+                </div>
+            </div>
+
+            <div class="other-proj-whole">
+                <div class="other-proj-block kastem">
+                    <div class="front-face">
+                        <div class="contents front">
+                            <h2>KASTEM SECURITY SOLUTIONS</h2>
+                            <p>WORDPRESS | HTML | CSS</p>
+                        </div>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="contents back">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="kastem-info">
+
+
+                    <div id="kastem-info">
+                        <p><a href="https://kastem.ca/" target="_blank">Kastem Security Solutions</a></p>
+                        <p>Kastem Security Solutions is a home and business security systems company. This project was a full website build.</p>
+                        <p>Goal: Easy to navigate, straight to the point website with minimal navigation required. Kastem wanted to have a similar style and color theme as its sister companies (CSV and MyNetworX) while still keeping their own identity.</p>
+
+                    </div>
+                    <div id="kastem-button"></div>
+                </div>
+            </div>
+            <div class="other-proj-whole">
+                <div class="other-proj-block mynetworx">
+                    <div class="front-face">
+                        <div class="contents front">
+                            <h2>MYNETWORX</h2>
+                            <p>WORDPRES | WOOCOMMERCE | HTML | CSS</p>
+                        </div>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="contents back">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mynetworx-info">
+
+
+                    <div id="mynetworx-info">
+                        <p><a href="https://mynetworx.ca/" target="_blank">MyNetworX</a></p>
+                        <p>MyNetworX is an internet provider for the surrounding Toronto area including a number of other cities in the vacinity. This project was a complete website redo with the creation of on online shop.</p>
+                        <p>Goal: Create a whole new site using similar colors and style from its 'sister companies' Custom Sound and Vision, and Kastem (See Above).</p>
+
+                    </div>
+                    <div id="mynetworx-button"></div>
+                </div>
+            </div>
         </div>
-        <div class="proj-block resume-site">
-            <h4>Online Resume/Portfolio - ASP.NET Core, HTML, CSS, JavaScript, Microsoft Azure, GitHub</h4>
-            <p><a href="https://github.com/ParkerRoseBurck/Resume-V2.0" target="_blank">GitHub Repository</a></p>
-            <p>This Resume was made as an ASP.Net application. I coded my own CSS file for the design and layout and added a JavaScript API for the rotating logo on the contact page. I hosted the site on Microsoft Azure by externally linking to the GitHub repository.</p>
-        </div>
-    </section>
+        
+
+
+
+
+            <div class="small-projects">
+                <div class="small-projects-title">
+                    <h1>SMALLER PROJECTS</h1>
+                    <h3>its the little things</h3>
+                </div>
+
+                <div class="proj-block theme-picker">
+                    <div class="front-face">
+                        <div class="contents front">
+                            <h2>THEME PICKER</h2>
+                            <p>HTML | CSS | JAVASCRIPT</p>
+                        </div>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="contents back">
+                            <p>This is a HTML, CSS, and JavaScript web application that allows the user to choose the theme of the site with the click of a button. JavaScript is used to create functions with the onclick event listener for each of the theme buttons. When one of the theme buttons is clicked, the css file changes, showing a different theme. </p>
+                            <p>JavaScript was also used to create functions with the mouseover and mouseleave event listeners to add animation borders to the buttons.</p>
+                            <p><a href="https://parkerroseburck.github.io/ThemePicker/" target="_blank">View Project</a></p>
+                            <p><a href="https://github.com/ParkerRoseBurck/ThemePicker" target="_blank">GitHub Repository</a></p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="proj-block weather">
+                    <div class="front-face">
+                        <div class="contents front">
+                            <h2>CURRENT WEATHER AND TIME</h2>
+                            <p>HTML | CSS | JAVASCRIPT</p>
+                        </div>
+                    </div>
+
+                    <div class="back-face">
+                        <div class="contents back">
+                            <p>This is a Web application that uses API's to get the current weather and time/timezone of a particular city the user enters.</p>
+                            <p>To complete this project I used OpenWeatherMap API, TimeZoneDB API, and a Web Animations API</p>
+                            <p><a href="https://parkerroseburck.github.io/WeatherApp/" target="_blank">View Project</a></p>
+                            <p><a href="https://github.com/ParkerRoseBurck/WeatherApp" target="_blank">GitHub Repository</a></p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+</section>
