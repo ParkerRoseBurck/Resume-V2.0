@@ -414,6 +414,10 @@ video{
     border: 1px solid #02302C;
     color: #02302C;
 }
+.what-ive-done p{
+    width: 50%!important;
+    margin-left: 25%!important;
+}
     .what-ive-done a:hover {
         letter-spacing: .3vw;
         text-decoration: none;
