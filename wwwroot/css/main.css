@@ -959,6 +959,10 @@ video{
         width: 60%!important;
         margin-left: 20%!important;
     }
+    .csv-info, .kastem-info, .mynetworx-info{
+        width: 90%!important;
+        margin-left: 5%!important;
+    }
 
     .small-projects .proj-block {
         height: 35vw;
@@ -971,5 +975,11 @@ video{
     }
     .small-projects{
         height: 70vw!important;
+    }
+}
+@media(max-width: 950px) {
+    .small-projects .proj-block {
+        height: 40vw;
+        
     }
 }
