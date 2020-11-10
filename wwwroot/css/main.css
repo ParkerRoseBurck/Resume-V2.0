@@ -36,15 +36,16 @@
     
 }
 ::-webkit-scrollbar-track {
-    background: #00151D;
+    background: #02302C;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(#011C27, #035058);
+    background-image: linear-gradient(white, #C2D5D3);
+
 }
 
     ::-webkit-scrollbar-thumb:hover {
-        background-image: linear-gradient(#035058, #011C27);
+        background-image: linear-gradient(#C2D5D3, white);
     }
 
     /*page content*/
@@ -171,7 +172,13 @@ nav .container .navbar-collapse {
     border: none;
 }
         
-
+.nav-item{
+    height: 5vw!important;
+}
+.navbar-toggler{
+    background-color: rgba(0, 0, 0, 0)!important;
+    border-color: rgba(0, 0, 0, 0)!important;
+}
 
         .aboutme-page {
             margin-bottom: 5%;
@@ -180,13 +187,13 @@ nav .container .navbar-collapse {
 .about-me {
     
     
-    padding-top: 12%;
-    padding-bottom: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     width: 100%!important;
     background-image: url('../img/mountains-1081677_1920.jpg');
     background-size: 100%, auto;
     background-attachment: fixed;
-    background-position: center!important;
+    background-position: top!important;
 }
     .about-me h5 {
         color: white;
@@ -942,4 +949,27 @@ video{
 
 .small-projects p {
     font-size: 1vw;
+}
+
+@media(max-width: 1100px){
+    p{
+        font-size: 1.5vw!important;
+    }
+    .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
+        width: 60%!important;
+        margin-left: 20%!important;
+    }
+
+    .small-projects .proj-block {
+        height: 35vw;
+        width: 45%;
+        margin-left: 3.3%;
+        
+    }
+    .small-projects .proj-block.weather{
+        margin-left: 51.6%!important;
+    }
+    .small-projects{
+        height: 70vw!important;
+    }
 }
