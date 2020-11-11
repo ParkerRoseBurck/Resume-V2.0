@@ -357,9 +357,10 @@ video{
     transform: translate(54vw, -7vw);
 }
 .image-bar-img6 {
-    background-image: url('../img/canoe.jpeg');
+    background-image: url('../img/received_10155456817399973.jpeg');
     width: 25vw;
     height: 15vw;
+    background-position: center;
     transform: translate(25vw, 50vw);
     transition: .3s ease;
 }
@@ -489,7 +490,7 @@ video{
 
 .current-proj-info p{
     text-align: center;
-    line-height: .5vw;
+    
 }
 .current-proj h3 {
     color: #C19A5B;
@@ -982,4 +983,91 @@ video{
         height: 40vw;
         
     }
+}
+
+@media(max-width: 750px){
+    p{
+        font-size: 2vw!important;
+    }
+    h5{
+        font-size: 1.6vw!important;
+    }
+    .about-me h1{
+        font-size: 9vw!important;
+    }
+    .what-ive-done h5{
+        font-size: 2.3vw!important
+    }
+    .what-ive-done p{
+        width: 80%!important;
+        margin-left: 10%!important;
+    }
+    .current-proj-info{
+        background-size: 70%!important;
+        height: 55%!important;
+    }
+    .contact-info h5{
+        font-size: 2.3vw!important;
+    }
+    .small-projects{
+        height: 130vw!important;
+    }
+    .small-projects .proj-block{
+        width: 70%!important;
+        margin-left: 15%!important;
+    }
+        .small-projects .proj-block.weather {
+            margin-top: 45vw !important;
+            width: 70% !important;
+            margin-left: 15% !important;
+        }
+        .other-proj-whole{
+            width: 50%!important;
+            margin-left: 25%!important;
+            clear: both!important;
+            margin-bottom: 5vw!important;
+        }
+}
+
+@media(max-width: 600px){
+   .small-projects p{
+       
+   }
+    .small-projects .proj-block {
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+        .small-projects .proj-block.weather {
+            width: 80% !important;
+            margin-left: 10% !important;
+        }
+}
+@media(max-width: 500px){
+    p{
+        font-size: 2.7vw!important;
+    }
+    .small-projects .proj-block {
+        height: 60vw!important;
+    }
+        .small-projects .proj-block.weather{
+            margin-top: 65vw!important;
+        }
+    .small-projects {
+        height: 170vw !important;
+    }
+    .other-proj-whole {
+        width: 80% !important;
+        margin-left: 10% !important;
+        clear: both !important;
+        
+    }
+    .new-proj-block{
+        width: 80%!important;
+        margin-left: 10%!important;
+        height: 30vw!important;
+    }
+    .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
+        padding-top: 32vw!important;
+    }
+       
 }
