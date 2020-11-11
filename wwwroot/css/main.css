@@ -1043,6 +1043,50 @@ video{
         }
 }
 @media(max-width: 500px){
+    h2{
+        font-size: 12vw!important;
+    }
+    h3{
+        font-size: 13vw!important;
+    }
+    .who-am-i p{
+        margin-top: 8vw!important;
+    }
+    .about-me{
+        height: 100vh!important;
+        padding-top: 30%!important;
+        background-size: auto 100vh!important;
+    }
+    .about-me h1{
+        font-size: 16vw!important;
+        line-height: 14vw!important;
+    }
+    .about-me h5{
+        font-size: 3vw!important;
+    }
+        .about-me h2 {
+            font-size: 9vw!important;
+        }
+        .what-ive-done h2{
+            font-size: 10vw!important;
+        }
+        .what-ive-done h3{
+            font-size: 9vw!important;
+        }
+    .what-ive-done h5 {
+        font-size: 4vw!important;
+    }
+    .current-proj-whole{
+        height: 80vh!important;
+    }
+    .current-proj-info{
+        width: 90%!important;
+        margin-left: 5%!important;
+    }
+    .current-proj-img {
+        width: 90%!important;
+        margin-left: 5%!important;
+    }
     p{
         font-size: 2.7vw!important;
     }
