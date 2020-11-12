@@ -136,7 +136,7 @@ nav .container .navbar-collapse {
     }
     .navbar-collapse ul li{
         text-align: right;
-        padding-bottom: 5%!important;
+        padding-bottom: 15%!important;
     }
 }
 
@@ -1082,13 +1082,31 @@ video{
     .current-proj-info{
         width: 90%!important;
         margin-left: 5%!important;
+        background-size: 90%!important;
     }
     .current-proj-img {
         width: 90%!important;
         margin-left: 5%!important;
     }
+    .current-proj h4{
+        font-size: 8vw!important;
+    }
     p{
         font-size: 2.7vw!important;
+    }
+    #proj-section h2{
+        font-size: 5vw!important;
+    }
+    #proj-section h1 {
+        font-size: 10vw!important;
+    }
+    .projects-title-section h3{
+        margin-top: -8vw!important;
+        font-size: 10vw!important;
+    }
+    .small-projects-title h3{
+        font-size: 10vw!important;
+        margin-top: -7vw!important;
     }
     .small-projects .proj-block {
         height: 60vw!important;
@@ -1097,7 +1115,7 @@ video{
             margin-top: 65vw!important;
         }
     .small-projects {
-        height: 170vw !important;
+        height: 180vw !important;
     }
     .other-proj-whole {
         width: 80% !important;
