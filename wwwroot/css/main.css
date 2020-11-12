@@ -119,7 +119,7 @@ nav .container .navbar-collapse {
 .navbar-collapse ul li {
     
     width: 9vw;
-    height: 3vw;
+    
     text-align: center;
 }
 @media(max-width: 1000px) {
@@ -137,6 +137,8 @@ nav .container .navbar-collapse {
     .navbar-collapse ul li{
         text-align: right;
         padding-bottom: 15%!important;
+        width: 50vw!important;
+        padding-right: 1vw!important;
     }
 }
 
@@ -173,7 +175,7 @@ nav .container .navbar-collapse {
 }
         
 .nav-item{
-    height: 5vw!important;
+    
 }
 .navbar-toggler{
     background-color: rgba(0, 0, 0, 0)!important;
@@ -187,11 +189,12 @@ nav .container .navbar-collapse {
 .about-me {
     
     
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 10%;
     width: 100%!important;
+    height: 100vh!important;
     background-image: url('../img/mountains-1081677_1920.jpg');
-    background-size: 100%, auto;
+    background-size: cover!important;
     background-attachment: fixed;
     background-position: top!important;
 }
@@ -984,59 +987,112 @@ video{
         
     }
 }
-
-@media(max-width: 750px){
-    p{
-        font-size: 2vw!important;
-    }
-    h5{
-        font-size: 1.6vw!important;
+@media(max-width: 850px) {
+    .about-me{
+        padding-top: 20%!important;
     }
     .about-me h1{
-        font-size: 9vw!important;
+        font-size: 10vw!important;
     }
-    .what-ive-done h5{
-        font-size: 2.3vw!important
-    }
-    .what-ive-done p{
-        width: 80%!important;
-        margin-left: 10%!important;
-    }
-    .current-proj-info{
-        background-size: 70%!important;
-        height: 55%!important;
-    }
-    .contact-info h5{
-        font-size: 2.3vw!important;
-    }
-    .small-projects{
-        height: 130vw!important;
-    }
-    .small-projects .proj-block{
-        width: 70%!important;
-        margin-left: 15%!important;
-    }
-        .small-projects .proj-block.weather {
-            margin-top: 45vw !important;
-            width: 70% !important;
-            margin-left: 15% !important;
+        .about-me h5 {
+            font-size: 2vw!important;
         }
-        .other-proj-whole{
-            width: 50%!important;
-            margin-left: 25%!important;
-            clear: both!important;
-            margin-bottom: 5vw!important;
+        .about-me h2 {
+            font-size: 7vw!important;
         }
 }
 
-@media(max-width: 600px){
-   .small-projects p{
-       
-   }
+
+
+@media(max-width: 750px) {
+    p {
+        font-size: 2vw !important;
+    }
+
+    h5 {
+        font-size: 1.6vw !important;
+    }
+
+    .about-me h1 {
+        font-size: 11vw !important;
+        line-height: 10vw!important;
+    }
+    .about-me h5{
+        font-size: 2.5vw!important;
+    }
+    .about-me h2 {
+        font-size: 8.5vw!important;
+    }
+
+    .what-ive-done h5 {
+        font-size: 2.3vw !important
+    }
+
+    .what-ive-done p {
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+
+    .current-proj-info {
+        background-size: 70% !important;
+        height: 55% !important;
+    }
+
+    .contact-info h5 {
+        font-size: 2.3vw !important;
+    }
+
+    .small-projects {
+        height: 130vw !important;
+    }
+
+        .small-projects .proj-block {
+            width: 70% !important;
+            margin-left: 15% !important;
+        }
+
+            .small-projects .proj-block.weather {
+                margin-top: 45vw !important;
+                width: 70% !important;
+                margin-left: 15% !important;
+            }
+
+    .other-proj-whole {
+        width: 50% !important;
+        margin-left: 25% !important;
+        clear: both !important;
+        margin-bottom: 5vw !important;
+    }
+}
+
+@media(max-width: 650px) {
+    .about-me{
+        padding-top: 30%!important;
+    }
+    .about-me h1{
+        font-size: 13vw!important;
+        line-height: 12vw!important;
+            
+    }
+        .about-me h5 {
+            font-size: 3vw!important;
+        }
+
+        .about-me h2 {
+            font-size: 9vw!important;
+        }
+}
+
+
+@media(max-width: 600px) {
+    .small-projects p {
+    }
+
     .small-projects .proj-block {
         width: 80% !important;
         margin-left: 10% !important;
     }
+
         .small-projects .proj-block.weather {
             width: 80% !important;
             margin-left: 10% !important;
@@ -1054,7 +1110,7 @@ video{
     }
     .about-me{
         height: 100vh!important;
-        padding-top: 30%!important;
+        padding-top: 40%!important;
         background-size: auto 100vh!important;
     }
     .about-me h1{
@@ -1131,5 +1187,36 @@ video{
     .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
         padding-top: 32vw!important;
     }
+       
+}
+
+@media(max-width: 450px){
+    .about-me{
+        padding-top: 45%!important;
+    }
+        .about-me h1 {
+            font-size: 18vw!important;
+            line-height: 16vw!important;
+        }
+
+        .about-me h5 {
+            font-size: 3.5vw!important;
+        }
+
+        .about-me h2 {
+            font-size: 11.5vw!important;
+        }
+}
+@media(max-width: 350px) {
+    .about-me {
+        padding-top: 55%!important;
+    }
+        .about-me h2 {
+            font-size: 12vw!important;
+        }
+        .about-me h1 {
+            font-size: 19vw!important;
+            line-height: 17vw!important;
+        }
        
 }
