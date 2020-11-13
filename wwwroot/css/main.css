@@ -1115,6 +1115,9 @@ video{
     .small-projects{
         height: 140vw!important;
     }
+    .navbar-nav {
+        background-color: rgba(255, 255, 255, 0.45)!important;
+    }
     .navbar-collapse ul {
         text-align: right;
         float: right;
