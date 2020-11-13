@@ -431,7 +431,7 @@ video{
     height: 70vw;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 5%;
+    margin-top: 15%;
 }
     .current-proj-inner{
         background-color: white;
@@ -623,7 +623,7 @@ video{
     
 #moonshot-button, #csv-button, #kastem-button, #vet-button, #mynetworx-button, #emulator-button, #scrabble-button{
     text-align: center;
-    padding: 1.5vw !important;
+    padding: 2vw !important;
     width: 10%;
     margin-left: 45%;
     background-image: url('../img/downarrow-thin-green.PNG');
@@ -1018,43 +1018,45 @@ video{
     }
 
     .what-ive-done h5 {
-        font-size: 2.3vw !important
+        font-size: 2.3vw!important
     }
 
     .what-ive-done p {
-        width: 80% !important;
-        margin-left: 10% !important;
+        width: 80%!important;
+        margin-left: 10%!important;
     }
-
+    .current-proj-whole{
+        height: 80vw!important;
+    }
     .current-proj-info {
-        background-size: 70% !important;
-        height: 55% !important;
+        background-size: 70%!important;
+        height: 50%!important;
     }
 
     .contact-info h5 {
-        font-size: 2.3vw !important;
+        font-size: 2.3vw!important;
     }
 
     .small-projects {
-        height: 130vw !important;
+        height: 130vw!important;
     }
 
         .small-projects .proj-block {
-            width: 70% !important;
-            margin-left: 15% !important;
+            width: 70%!important;
+            margin-left: 15%!important;
         }
 
             .small-projects .proj-block.weather {
-                margin-top: 45vw !important;
-                width: 70% !important;
-                margin-left: 15% !important;
+                margin-top: 45vw!important;
+                width: 70%!important;
+                margin-left: 15%!important;
             }
 
     .other-proj-whole {
-        width: 70% !important;
-        margin-left: 15% !important;
-        clear: both !important;
-        margin-bottom: 5vw !important;
+        width: 70%!important;
+        margin-left: 15%!important;
+        clear: both!important;
+        margin-bottom: 5vw!important;
     }
 }
 
@@ -1182,7 +1184,8 @@ video{
     .current-proj-info{
         width: 90%!important;
         margin-left: 5%!important;
-        background-size: 90%!important;
+        background-size: 70%!important;
+        padding-top: 10%!important;
     }
     .current-proj-img {
         width: 90%!important;
