@@ -129,18 +129,7 @@ nav .container .navbar-collapse {
 
 }
 
-@media(max-width: 575px) {
-    .navbar-collapse ul {
-        text-align: right;
-        float: right;
-    }
-    .navbar-collapse ul li{
-        text-align: right;
-        padding-bottom: 15%!important;
-        width: 50vw!important;
-        padding-right: 1vw!important;
-    }
-}
+
 
 
 .navbar-collapse ul li a {
@@ -907,6 +896,10 @@ video{
     color: #02302C;
     transform: rotateY(180deg);
 }
+.mobile{
+    display: none!important;
+   
+}
 
 .small-projects .proj-block:hover > .back-face{
     transform: rotateY(0deg);
@@ -1058,8 +1051,8 @@ video{
             }
 
     .other-proj-whole {
-        width: 50% !important;
-        margin-left: 25% !important;
+        width: 70% !important;
+        margin-left: 15% !important;
         clear: both !important;
         margin-bottom: 5vw !important;
     }
@@ -1097,6 +1090,54 @@ video{
             width: 80% !important;
             margin-left: 10% !important;
         }
+}
+
+
+@media(max-width: 575px) {
+    .desktop{
+        display: none!important;
+    }
+    .mobile {
+        display: block!important;
+        height: auto!important;
+        position: relative!important;
+    }
+    .small-projects .proj-block.weather{
+        margin-top: 5vw!important;
+    }
+    .small-projects a {
+        display: inline-block;
+        padding: 1vw;
+        transition: .3s ease;
+        border: 1px solid #02302C;
+        color: #02302C;
+    }
+    .small-projects{
+        height: 140vw!important;
+    }
+    .navbar-collapse ul {
+        text-align: right;
+        float: right;
+    }
+
+        .navbar-collapse ul li {
+            text-align: right;
+            padding-bottom: 15% !important;
+            width: 50vw !important;
+            padding-right: 1vw !important;
+        }
+         p{
+            font-size: 2.5vw!important;
+        }
+         .front p{
+             font-size: 2vw!important;
+         }
+        .what-ive-done h5{
+            font-size: 3vw!important;
+        }
+    .current-proj-whole h5 {
+        font-size: 3vw!important;
+    }
 }
 @media(max-width: 500px){
     h2{
