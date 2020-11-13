@@ -393,6 +393,7 @@ video{
 }
 
 /*What I've done*/
+
 .what-ive-done h3 {
     margin-bottom: 15vw;
     font-size: 7vw !important;
@@ -498,7 +499,7 @@ video{
     width: 100%;
     height: 0;
     overflow: visible;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .square-container .square{
     width: 100%;
@@ -1195,7 +1196,10 @@ video{
         font-size: 8vw!important;
     }
     p{
-        font-size: 2.7vw!important;
+        font-size: 3vw!important;
+    }
+    .contact-info h5{
+        font-size: 4vw!important;
     }
     #proj-section h2{
         font-size: 5vw!important;
@@ -1214,13 +1218,19 @@ video{
     
        
     .small-projects {
-        height: 180vw !important;
+        height: 200vw !important;
     }
     .other-proj-whole {
         width: 80% !important;
         margin-left: 10% !important;
         clear: both !important;
-        
+        margin-bottom: 7vw!important;
+    }
+    .other-proj-block{
+        height: 25vw!important;
+    }
+    .csv-info, .kastem-info, .mynetworx-info{
+        margin-top: 3vw!important;
     }
     .new-proj-block{
         width: 80%!important;
@@ -1250,22 +1260,35 @@ video{
             font-size: 11.5vw!important;
         }
         .small-projects{
-            height: 190vw!important;
-        }
-}
-@media(max-width: 350px) {
-    .about-me {
-        padding-top: 55%!important;
-    }
-        .about-me h2 {
-            font-size: 12vw!important;
-        }
-        .about-me h1 {
-            font-size: 19vw!important;
-            line-height: 17vw!important;
-        }
-        .small-projects{
             height: 200vw!important;
         }
-       
+}
+
+@media(max-width: 400px) {
+    p{
+        font-size: 3.5vw!important;
+    }
+    .small-projects{
+        height: 230vw!important;
+    }
+}
+
+
+@media(max-width: 350px) {
+    .about-me {
+        padding-top: 55% !important;
+    }
+
+        .about-me h2 {
+            font-size: 12vw !important;
+        }
+
+        .about-me h1 {
+            font-size: 19vw !important;
+            line-height: 17vw !important;
+        }
+
+    .small-projects {
+        height: 240vw !important;
+    }
 }
