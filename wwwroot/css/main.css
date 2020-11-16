@@ -1111,9 +1111,19 @@ video{
         height: auto!important;
         position: relative!important;
     }
-    .small-projects .proj-block.weather{
-        margin-top: 5vw!important;
+
+    .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
+        width: 80%!important;
+        margin-left: 10%!important;
     }
+        #moonshot-button, #emulator-button, #scrabble-button, #vet-button, #csv-button, #kastem-button, #mynetworx-button{
+            padding: 4vw!important;
+            background-size: 80%!important;
+        }
+
+        .small-projects .proj-block.weather {
+            margin-top: 5vw !important;
+        }
     .small-projects a {
         display: inline-block;
         padding: 1vw;
@@ -1165,6 +1175,7 @@ video{
     }
     .who-am-i p{
         margin-top: 8vw!important;
+        line-height: 4vw!important;
     }
     .about-me{
         height: 100vh!important;
