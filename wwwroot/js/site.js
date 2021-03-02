@@ -24,7 +24,6 @@ let emulatorShowing = false;
 let scrabbleButton = document.getElementById('scrabble-button');
 let scrabbleInfo = document.getElementById('scrabble-info');
 let scrabbleShowing = false;
-
 let newcomerButton = document.getElementById('newcomer-button');
 let newcomerInfo = document.getElementById('newcomer-info');
 let newcomerShowing = false;
