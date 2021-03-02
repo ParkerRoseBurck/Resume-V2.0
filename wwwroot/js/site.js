@@ -27,6 +27,9 @@ let scrabbleShowing = false;
 let newcomerButton = document.getElementById('newcomer-button');
 let newcomerInfo = document.getElementById('newcomer-info');
 let newcomerShowing = false;
+let tibbsButton = document.getElementById('tibbs-button');
+let tibbsInfo = document.getElementById('tibbs-info');
+let tibbsShowing = false;
 
 moonshotButton.onclick = function () {
     if (moonshotShowing) {
@@ -133,3 +136,16 @@ newcomerButton.onclick = function () {
     }
 }
 
+
+tibbsButton.onclick = function () {
+    if (tibbsShowing) {
+        tibbsInfo.style.display = "none";
+        tibbsButton.style.backgroundImage = "url('../img/downarrow-thin-green.PNG')";
+        tibbsShowing = false;
+
+    } else {
+        tibbsInfo.style.display = "block";
+        tibbsButton.style.backgroundImage = "url('../img/uparrow-thin-green.PNG')";
+        tibbsShowing = true;
+    }
+}
