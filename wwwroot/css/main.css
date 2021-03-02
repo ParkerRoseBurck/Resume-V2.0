@@ -622,7 +622,7 @@ video{
     }
 
     
-#moonshot-button, #csv-button, #kastem-button, #vet-button, #mynetworx-button, #emulator-button, #scrabble-button{
+#moonshot-button, #csv-button, #kastem-button, #vet-button, #mynetworx-button, #emulator-button, #scrabble-button, #newcomer-button{
     text-align: center;
     padding: 2vw !important;
     width: 10%;
@@ -632,21 +632,21 @@ video{
     background-size: 60%;
     background-repeat: no-repeat;
 }
-    #moonshot-button:hover, #csv-button:hover, #kastem-button:hover, #vet-button:hover, #mynetworx-button:hover, #emulator-button:hover, #scrabble-button:hover{
+    #moonshot-button:hover, #csv-button:hover, #kastem-button:hover, #vet-button:hover, #mynetworx-button:hover, #emulator-button:hover, #scrabble-button:hover, #newcomer-button:hover{
         cursor: pointer;
     }
     .other-proj-whole{
         width: 33%;
         float: left;
     }
-.moonshot-info, .scrabble-info {
+.moonshot-info, .scrabble-info, .newcomer-info {
     width: 40%;
     margin-left: 30%;
     text-align: center;
     clear: both;
     
 }
-    .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
+    .moonshot-info, .emulator-info, .scrabble-info, .vet-info, .newcomer-info{
         padding-top: 25vw;
         padding-bottom: 10%;
     }
@@ -670,7 +670,7 @@ video{
     line-height: 7.5vw;
     font-family: 'Mrs Saint Delafield', cursive;
 }
-#moonshot-info, #csv-info, #kastem-info, #mynetworx-info, #vet-info, #emulator-info, #scrabble-info {
+#moonshot-info, #csv-info, #kastem-info, #mynetworx-info, #vet-info, #emulator-info, #scrabble-info, #newcomer-info {
     margin-top: 5%;
     display: none;
     text-align: left;
@@ -679,7 +679,7 @@ video{
     background-color: #C2D5D3;
 }
 
-    #moonshot-info a, #csv-info a, #kastem-info a, #mynetworx-info a, #vet-info a, #emulator-info a, #scrabble-info a, .theme-picker .contents a, .weather .contents a{
+    #moonshot-info a, #csv-info a, #kastem-info a, #mynetworx-info a, #vet-info a, #emulator-info a, #scrabble-info a, .theme-picker .contents a, .weather .contents a, #newcomer-info a{
         display: inline-block;
         padding: 1vw;
         transition: .3s ease;
@@ -687,7 +687,7 @@ video{
         color: #02302C;
     }
 
-        #moonshot-info a:hover, #csv-info a:hover, #kastem-info a:hover, #mynetworx-info a:hover, #vet-info a:hover, #emulator-info a:hover, #scrabble-info a:hover {
+        #moonshot-info a:hover, #csv-info a:hover, #kastem-info a:hover, #mynetworx-info a:hover, #vet-info a:hover, #emulator-info a:hover, #scrabble-info a:hover, #newcomer-info a:hover {
             letter-spacing: .3vw;
             transition: .3s ease;
             border: 1px solid white;
@@ -856,6 +856,10 @@ video{
     background-image: url('../img/vetServices.PNG');
     background-size: cover;
 }
+.new-proj-block.newcomer .back-face {
+    background-image: url('../img/thenewcomer.PNG');
+    background-size: cover;
+}
 
 .other-proj-block.csv .back-face {
     background-image: url('../img/csvHome.PNG');
@@ -959,7 +963,7 @@ video{
     p{
         font-size: 1.5vw!important;
     }
-    .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
+    .moonshot-info, .emulator-info, .scrabble-info, .vet-info, .newcomer-info{
         width: 60%!important;
         margin-left: 20%!important;
     }
@@ -1112,11 +1116,11 @@ video{
         position: relative!important;
     }
 
-    .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
+    .moonshot-info, .emulator-info, .scrabble-info, .vet-info, .newcomer-info{
         width: 80%!important;
         margin-left: 10%!important;
     }
-        #moonshot-button, #emulator-button, #scrabble-button, #vet-button, #csv-button, #kastem-button, #mynetworx-button{
+        #moonshot-button, #emulator-button, #scrabble-button, #vet-button, #csv-button, #kastem-button, #mynetworx-button, #newcomer-button{
             padding: 4vw!important;
             background-size: 80%!important;
         }
@@ -1259,7 +1263,7 @@ video{
         margin-left: 10%!important;
         height: 30vw!important;
     }
-    .moonshot-info, .emulator-info, .scrabble-info, .vet-info{
+    .moonshot-info, .emulator-info, .scrabble-info, .vet-info, .newcomer-info{
         padding-top: 32vw!important;
     }
        

@@ -25,6 +25,10 @@ let scrabbleButton = document.getElementById('scrabble-button');
 let scrabbleInfo = document.getElementById('scrabble-info');
 let scrabbleShowing = false;
 
+let newcomerButton = document.getElementById('newcomer-button');
+let newcomerInfo = document.getElementById('newcomer-info');
+let newcomerShowing = false;
+
 moonshotButton.onclick = function () {
     if (moonshotShowing) {
         moonshotInfo.style.display = "none";
@@ -117,4 +121,16 @@ scrabbleButton.onclick = function () {
     }
 }
 
+newcomerButton.onclick = function () {
+    if (newcomerShowing) {
+        newcomerInfo.style.display = "none";
+        newcomerButton.style.backgroundImage = "url('../img/downarrow-thin-green.PNG')";
+        newcomerShowing = false;
+
+    } else {
+        newcomerInfo.style.display = "block";
+        newcomerButton.style.backgroundImage = "url('../img/uparrow-thin-green.PNG')";
+        newcomerShowing = true;
+    }
+}
 
