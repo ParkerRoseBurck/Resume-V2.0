@@ -624,7 +624,7 @@ video{
     
 #moonshot-button, #csv-button, #kastem-button, #vet-button, #mynetworx-button, #emulator-button, #scrabble-button, #newcomer-button, #tibbs-button{
     text-align: center;
-    padding: 2vw !important;
+    padding: 2vw!important;
     width: 10%;
     margin-left: 45%;
     background-image: url('../img/downarrow-thin-green.PNG');
@@ -664,9 +664,9 @@ video{
 #tibbs-info h3 {
     color: #02302C;
     width: 100%;
-    margin-left: 7vw !important;
+    margin-left: 7vw!important;
     
-    margin-top: -2vw !important;
+    margin-top: -2vw!important;
     line-height: 7.5vw;
     font-family: 'Mrs Saint Delafield', cursive;
 }
@@ -691,13 +691,13 @@ video{
             letter-spacing: .3vw;
             transition: .3s ease;
             border: 1px solid white;
-            color: white !important;
+            color: white!important;
         }
         .theme-picker .contents a:hover, .weather .contents a:hover {
             letter-spacing: .3vw;
             transition: .3s ease;
             border: 1px solid #C2D5D3;
-            color: #C2D5D3 !important;
+            color: #C2D5D3!important;
         }
 
 
@@ -761,7 +761,7 @@ video{
     float: left;
 }
 .csv h1, .kastem h1, .mynetworx h1 {
-    color: #02302C !important;
+    color: #02302C!important;
     font-size: 1.3vw;
 }
 .small-projects{
@@ -1014,15 +1014,15 @@ video{
 
 @media(max-width: 750px) {
     p {
-        font-size: 2vw !important;
+        font-size: 2vw!important;
     }
 
     h5 {
-        font-size: 1.6vw !important;
+        font-size: 1.6vw!important;
     }
 
     .about-me h1 {
-        font-size: 11vw !important;
+        font-size: 11vw!important;
         line-height: 10vw!important;
     }
     .about-me h5{
@@ -1100,12 +1100,12 @@ video{
 
     .small-projects .proj-block {
         width: 80% !important;
-        margin-left: 10% !important;
+        margin-left: 10%!important;
     }
 
         .small-projects .proj-block.weather {
-            width: 80% !important;
-            margin-left: 10% !important;
+            width: 80%!important;
+            margin-left: 10%!important;
         }
 }
 
@@ -1130,7 +1130,7 @@ video{
         }
 
         .small-projects .proj-block.weather {
-            margin-top: 5vw !important;
+            margin-top: 5vw!important;
         }
     .small-projects a {
         display: inline-block;
@@ -1152,9 +1152,9 @@ video{
 
         .navbar-collapse ul li {
             text-align: right;
-            padding-bottom: 15% !important;
-            width: 50vw !important;
-            padding-right: 1vw !important;
+            padding-bottom: 15%!important;
+            width: 50vw!important;
+            padding-right: 1vw!important;
         }
          p{
             font-size: 2.5vw!important;
@@ -1248,13 +1248,13 @@ video{
     
        
     .small-projects {
-        height: 200vw !important;
+        height: 200vw!important;
     }
     .other-proj-whole {
-        width: 80% !important;
-        margin-left: 10% !important;
-        clear: both !important;
-        margin-bottom: 7vw!important;
+        width: 80%!important;
+        margin-left: 10%!important;
+        clear: both!important;
+        margin-bottom:7vw!important;
     }
     .other-proj-block{
         height: 25vw!important;
@@ -1306,19 +1306,19 @@ video{
 
 @media(max-width: 350px) {
     .about-me {
-        padding-top: 55% !important;
+        padding-top: 55%!important;
     }
 
         .about-me h2 {
-            font-size: 12vw !important;
+            font-size: 12vw!important;
         }
 
         .about-me h1 {
-            font-size: 19vw !important;
-            line-height: 17vw !important;
+            font-size: 19vw!important;
+            line-height: 17vw!important;
         }
 
     .small-projects {
-        height: 240vw !important;
+        height: 240vw!important;
     }
 }

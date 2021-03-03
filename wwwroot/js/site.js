@@ -143,6 +143,7 @@ tibbsButton.onclick = function () {
         tibbsButton.style.backgroundImage = "url('../img/downarrow-thin-green.PNG')";
         tibbsShowing = false;
 
+
     } else {
         tibbsInfo.style.display = "block";
         tibbsButton.style.backgroundImage = "url('../img/uparrow-thin-green.PNG')";
