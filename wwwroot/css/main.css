@@ -1,4 +1,4 @@
-﻿
+
 
 /*My own css added here:*/
 /*AOS*/
@@ -54,7 +54,7 @@ html, body {
     background-image: linear-gradient(#E6EFEE, white ) !important;
     color: #00151D;
     top: 0;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nanum Myeongjo', serif!important;
     overflow-x: hidden;
 }
 
@@ -252,8 +252,8 @@ nav .container .navbar-collapse {
     
 }
 video{
-    width: 100%;
-    margin-top: -30%;
+    width: 100%!important;
+    margin-top: -30%!important;
 }
 
         .who-am-i p{
@@ -450,7 +450,7 @@ video{
     margin-left: 20%;
     
     height: 35%;
-    background-image: url('../img/TibbsWebsite.PNG');
+    background-image: url('../img/Capture.PNG');
     background-size: cover;
     margin-top: 1%;
 }
@@ -545,32 +545,42 @@ video{
     margin-top: 2%;
 }
 .contact-info{
-   
+    
 }
 /*LinkedIn badge*/
+.LI-profile-badge .profile-badge{
+    display: none;
+}
+.LI-profile-badge { 
+    margin-bottom: 3vw !important;  
+}
+
+.LI-profile-badge .LI-simple-link:hover {
+    border: 1px solid #02302c !important;
+}
 .LI-badge-container.horizontal.dark {
-    margin-bottom: 5%;
+    margin-bottom: 5%!important;
     
-    background-color: #02302C !important;
-    color: white !important;
-    border: 2px solid #02302C;
+    background-color: #02302C!important;
+    color: white!important;
+    border: 2px solid #02302C!important;
 }
 
     .LI-badge-container.horizontal.dark ul, .LI-badge-container.horizontal.dark ul li, .LI-badge-container.horizontal.dark div, .LI-badge-container.horizontal.dark ul a, .LI-badge-container.horizontal.dark div a, .LI-badge-container.horizontal.dark div span, .LI-badge-container.horizontal.dark div span img {
-        background-color: #02302C !important;
-        color: white !important;
+        background-color: #02302C!important;
+        color: white!important;
     }
 
         .LI-badge-container.horizontal.dark div a.LI-view-profile {
-            background-color: white !important;
-            color: #02302C !important;
-            border: 1px solid white;
+            background-color: white!important;
+            color: #02302C!important;
+            border: 1px solid white!important;
         }
 
             .LI-badge-container.horizontal.dark div a.LI-view-profile:hover {
-                color: white !important;
-                background-color: #02302C !important;
-                border: 1px solid white;
+                color: white!important;
+                background-color: #02302C!important;
+                border: 1px solid white!important;
             }
             .LI-badge-container.horizontal.dark div a.LI-view-profile:visited{
                 color: #02302C!important;
@@ -861,7 +871,7 @@ video{
     background-size: cover;
 }
 .new-proj-block.tibbs .back-face {
-    background-image: url('../img/TibbsWebsite.PNG');
+    background-image: url('../img/Capture.PNG');
     background-size: cover;
 }
 
