@@ -30,6 +30,9 @@ let newcomerShowing = false;
 let tibbsButton = document.getElementById('tibbs-button');
 let tibbsInfo = document.getElementById('tibbs-info');
 let tibbsShowing = false;
+let qeraButton = document.getElementById('qera-button');
+let qeraInfo = document.getElementById('qera-info');
+let qeraShowing = false;
 
 moonshotButton.onclick = function () {
     if (moonshotShowing) {
@@ -150,3 +153,20 @@ tibbsButton.onclick = function () {
         tibbsShowing = true;
     }
 }
+
+
+
+qeraButton.onclick = function () {
+    if (qeraShowing) {
+        qeraInfo.style.display = "none";
+        qeraButton.style.backgroundImage = "url('../img/downarrow-thin-green.PNG')";
+        qeraShowing = false;
+
+
+    } else {
+        qeraInfo.style.display = "block";
+        qeraButton.style.backgroundImage = "url('../img/uparrow-thin-green.PNG')";
+        qeraShowing = true;
+    }
+}
+
