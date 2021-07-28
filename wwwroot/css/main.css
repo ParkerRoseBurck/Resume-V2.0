@@ -854,16 +854,16 @@ video{
     background-size: cover;
 }
 .new-proj-block.emulator .back-face {
-    background-image: url('../img/code-pic.jpg');
+    background-image: url('../img/eightsixzero.PNG');
     background-size: cover;
 }
 .new-proj-block.scrabble .back-face {
-    background-image: url('../img/scrabbleCodeAndApp.PNG');
+    background-image: url('../img/thenuetrend.PNG');
     background-size: cover;
 
 }
 .new-proj-block.vet .back-face {
-    background-image: url('../img/vetServices.PNG');
+    background-image: url('../img/womenQuest.PNG');
     background-size: cover;
 }
 .new-proj-block.newcomer .back-face {
